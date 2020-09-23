@@ -1,0 +1,28 @@
+html,
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+}
+
+.snake {
+  background-color: slateblue;
+}
+
+.apple {
+  background: navy;
+  border-radius: 20px;
+}
